@@ -7,8 +7,8 @@
 include "Telegram.php";
 include "encurtador.php";
 
-$telegram = new Telegram('810079691:AAE2HKCdvRBeAI3ep3P-rQRm7C4cCf8JkNA');
-$api_key="613296ea4d";
+$telegram = new Telegram('TelegramKey');
+$api_key="ApiYourls";
 $texto = $telegram->Text();
 $chat_id = $telegram->ChatID();
 
